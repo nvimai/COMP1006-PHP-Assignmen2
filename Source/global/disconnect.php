@@ -1,0 +1,4 @@
+<?php
+// Disconnect
+$conn = null;
+?>
