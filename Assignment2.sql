@@ -43,7 +43,7 @@ CREATE TABLE products (
 	productName VARCHAR(255) NOT NULL, 
 	categoryID INT NOT NULL, 
 	description TEXT,
-	price DOUBLE[(10,2)],
+	price DOUBLE(10,2),
 	image BLOB,
 	PRIMARY KEY (productID),
 	FOREIGN KEY (categoryID) REFERENCES categories(categoryID)
