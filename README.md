@@ -16,6 +16,11 @@ database
   - Document code with comments within scripts
   - Incorporate a clean, consistent design
   - Encripted the data when uploading to the database
+  - Error handling:
+    - 404 error page with the correct .htaccess file
+    - General error page
+    - Try Catch blocks on all of your code blocks that access the database. If
+errors occur the user should be redirected to your General error page
 
 ### License
 Copyright © 2019, [Nvi Mai](https://www.nvimai.com).
